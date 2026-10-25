@@ -4,12 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#faf9f5">
-  <meta name="description" content="Prince Singh Chauhan — B.Tech CSE student at GL Bajaj, learning software engineering and building useful digital products.">
+  <meta name="description" content="Prince Singh Chauhan — B.Tech CSE student at GL Bajaj, building useful digital products with React, Next.js, and modern web technologies.">
+  <meta name="keywords" content="Prince Singh Chauhan, portfolio, software engineer, web developer, React, Next.js, TypeScript, C++, DSA">
+  <meta name="author" content="Prince Singh Chauhan">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prince Singh Chauhan — Portfolio">
+  <meta property="og:description" content="B.Tech CSE student building useful digital products. Explore my projects, skills, and journey.">
+  <meta property="og:image" content="assets/prince-hero.png">
+  <meta property="og:url" content="https://prince-portfolio-mu-sooty.vercel.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prince Singh Chauhan — Portfolio">
+  <meta name="twitter:description" content="B.Tech CSE student building useful digital products. Explore my projects, skills, and journey.">
+  <meta name="twitter:image" content="assets/prince-hero.png">
   <title>Prince Singh Chauhan — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/prince-hero.png">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -18,9 +30,13 @@
     <a href="#home" class="logo" aria-label="Prince home">PRINCE<span>.</span></a>
     <button class="menu-button" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+      <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#coding-profile">Coding Profile</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
     </nav>
-    <a class="header-link" href="#contact">Let’s connect <span>↗</span></a>
+    <button class="theme-toggle" aria-label="Switch to dark theme" title="Toggle theme">
+      <svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+    <a class="header-link" href="#contact">Let's connect <span>↗</span></a>
   </header>
 
   <main>
@@ -30,11 +46,26 @@
       <div class="hero-content">
         <div class="eyebrow"><span class="live-dot"></span> B.TECH CSE STUDENT <span class="eyebrow-divider">/</span> GL BAJAJ</div>
         <h1>Prince<br>Singh <span>Chauhan.</span></h1>
-        <p class="hero-role">ASPIRING SOFTWARE ENGINEER</p>
-        <p class="hero-intro">I’m a Computer Science student passionate about building useful products, solving problems, and turning ideas into thoughtful digital experiences.</p>
+        <p class="hero-role">Building Digital Experiences That Solve Real Problems.</p>
+        <p class="hero-intro">I'm a Computer Science Engineering student at GL Bajaj, passionate about web development, software engineering, and building practical applications. I enjoy solving problems through code and continuously improving my craft through hands-on projects.</p>
         <div class="hero-buttons">
-          <a class="button button-dark" href="#projects">View my work <span>↗</span></a>
-          <a class="button button-outline" href="#contact">Get in touch</a>
+          <a class="button button-dark" href="#projects">Explore my projects <span>↗</span></a>
+          <a class="button button-outline" href="#contact">Contact me</a>
+          <a class="button button-outline" href="assets/Resume.pdf" download="Prince_Singh_Chauhan_Resume.pdf">Download Resume</a>
+        </div>
+        <div class="hero-social" aria-label="Professional profiles">
+          <a class="social-button social-linkedin" href="https://www.linkedin.com/in/prince-singh-8971a1383" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span class="social-label">LinkedIn</span>
+          </a>
+          <a class="social-button social-github" href="https://github.com/prince800502" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            <span class="social-label">GitHub</span>
+          </a>
+          <a class="social-button social-leetcode" href="https://leetcode.com/u/ps800502/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile">
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1.5-12h3V8.5h-3V6h-1.5v2.5H8V8h1.5v2H12v1.5zm0 5.5H8v-1h4v1zm3-3.5h-1.5V12H12V8.5h3V12z"/></svg>
+            <span class="social-label">LeetCode</span>
+          </a>
         </div>
         <div class="hero-footnote"><span class="foot-line"></span> BUILD · LEARN · GROW <span class="foot-location">UTTAR PRADESH, INDIA</span></div>
       </div>
@@ -53,9 +84,10 @@
       </div>
       <div class="about-grid">
         <div class="about-main reveal">
-          <p class="about-lead">I’m Prince, a B.Tech Computer Science & Engineering student at GL Bajaj, learning to turn ideas into useful, well-crafted software.</p>
-          <p>I enjoy exploring how digital products work—from the interface people interact with to the logic that powers them. Right now, I’m strengthening my programming fundamentals, practising problem-solving, and learning by building projects of my own.</p>
-          <a class="underlined-link" href="https://github.com/prince800502" target="_blank" rel="noreferrer">Explore my GitHub <span>↗</span></a>
+          <p class="about-lead">I'm Prince Singh Chauhan, a B.Tech Computer Science & Engineering student at GL Bajaj Institute of Technology and Management, learning to turn ideas into useful, well-crafted software.</p>
+          <p>I enjoy exploring how digital products work—from the interface people interact with to the logic that powers them. My interests lie in web development, software engineering, and building practical applications that solve real problems. Right now, I'm strengthening my programming fundamentals in C and C++, practising problem-solving on LeetCode, and learning by building projects of my own using React, Next.js, and modern web technologies.</p>
+          <p>I believe in learning through building—each project teaches me something new about architecture, user experience, and writing maintainable code. I'm actively seeking internship opportunities and freelance projects where I can contribute, grow, and build meaningful digital products.</p>
+          <a class="underlined-link" href="https://github.com/prince800502" target="_blank" rel="noopener noreferrer">Explore my GitHub <span>↗</span></a>
         </div>
         <div class="principles">
           <article class="principle reveal"><span>01</span><div><h3>Learn with intent</h3><p>Build a strong foundation in programming and computer science.</p></div></article>
@@ -65,10 +97,143 @@
       </div>
     </section>
 
+    <section class="section wrap" id="education">
+      <div class="section-head reveal">
+        <span class="kicker">02 / EDUCATION</span>
+        <h2>Academic<br><span>Foundation.</span></h2>
+      </div>
+      <div class="education-grid">
+        <article class="education-card reveal">
+          <div class="card-top">
+            <span class="kicker">CLASS 10TH</span>
+            <span class="edu-stamp">PNUMV</span>
+          </div>
+          <div class="edu-detail">
+            <h3>P N U M V Lachchhipur, Tajpur, Gonda</h3>
+            <p class="edu-board">Standard Secondary Education</p>
+            <div class="edu-meta">
+              <div class="meta-item">
+                <span class="meta-label">Percentage</span>
+                <span class="meta-value">91%</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Passing Year</span>
+                <span class="meta-value">2022</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="education-card reveal">
+          <div class="card-top">
+            <span class="kicker">CLASS 12TH</span>
+            <span class="edu-stamp">UP BOARD</span>
+          </div>
+          <div class="edu-detail">
+            <h3>Genius Inter College, Gonda</h3>
+            <p class="edu-board">Uttar Pradesh Board (UP Board)</p>
+            <div class="edu-meta">
+              <div class="meta-item">
+                <span class="meta-label">Percentage</span>
+                <span class="meta-value">90.8%</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Passing Year</span>
+                <span class="meta-value">2024</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="education-card reveal featured">
+          <div class="card-top">
+            <span class="kicker">B.TECH</span>
+            <span class="edu-stamp">GLB</span>
+          </div>
+          <div class="edu-detail">
+            <h3>GL Bajaj Institute of Technology and Management</h3>
+            <p class="edu-board">Dr. A.P.J. Abdul Kalam Technical University (AKTU)</p>
+            <div class="edu-meta">
+              <div class="meta-item">
+                <span class="meta-label">Degree</span>
+                <span class="meta-value">Bachelor of Technology (B.Tech)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Branch</span>
+                <span class="meta-value">Computer Science and Engineering (CSE)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Status</span>
+                <span class="meta-value status-current">Currently Pursuing</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Expected Graduation</span>
+                <span class="meta-value">2029</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills">
+      <div class="section-head reveal">
+        <span class="kicker">03 / SKILLS</span>
+        <h2>Technical<br><span>Toolkit.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skills-category reveal">
+          <div class="category-header">
+            <span class="category-icon">◈</span>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-tags">
+            <span>C</span>
+            <span>C++</span>
+          </div>
+        </article>
+        <article class="skills-category reveal">
+          <div class="category-header">
+            <span class="category-icon">◈</span>
+            <h3>Frontend Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Next.js</span>
+          </div>
+        </article>
+        <article class="skills-category reveal">
+          <div class="category-header">
+            <span class="category-icon">◈</span>
+            <h3>Backend & Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span>Supabase</span>
+            <span>MongoDB</span>
+            <span>SQL</span>
+          </div>
+        </article>
+        <article class="skills-category reveal">
+          <div class="category-header">
+            <span class="category-icon">◈</span>
+            <h3>Tools & Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Vercel</span>
+          </div>
+        </article>
+      </div>
+      <p class="skills-footnote reveal">I'm actively learning and improving these skills through coursework, personal projects, and daily coding practice. Technologies are listed based on hands-on experience in my projects.</p>
+    </section>
+
     <section class="projects-section" id="projects">
       <div class="wrap">
         <div class="section-head projects-head reveal">
-          <span class="kicker">02 / SELECTED WORK</span>
+          <span class="kicker">04 / SELECTED WORK</span>
           <h2>Ideas, shaped<br><span>into projects.</span></h2>
           <p>A couple of projects from my ongoing journey of learning and building.</p>
         </div>
@@ -91,7 +256,7 @@
               <h3>Resume Forge</h3>
               <p>A resume builder designed to make creating and managing polished resumes easier, with template selection, autosave, data persistence, exports, and AI-powered suggestions.</p>
               <div class="tags"><span>React</span><span>TypeScript</span><span>Supabase</span><span>Gemini API</span></div>
-              <div class="project-actions"><a href="https://resume-forge-green-gamma.vercel.app" target="_blank" rel="noreferrer">Visit live website <span>↗</span></a><a href="https://github.com/prince800502/Resume_Forge" target="_blank" rel="noreferrer">Source code <span>↗</span></a></div>
+              <div class="project-actions"><a href="https://resume-forge-green-gamma.vercel.app" target="_blank" rel="noopener noreferrer">Live demo <span>↗</span></a><a href="https://github.com/prince800502/Resume_Forge" target="_blank" rel="noopener noreferrer">Source code <span>↗</span></a></div>
             </div>
           </article>
           <article class="project reveal">
@@ -108,7 +273,7 @@
               <h3>Productivity Suite</h3>
               <p>A personal productivity workspace concept that brings everyday planning, tasks, routines, scheduling, and expense tracking into a unified digital space.</p>
               <div class="tags"><span>Next.js</span><span>TypeScript</span><span>Supabase</span><span>Product UI</span></div>
-              <div class="project-actions"><a href="https://github.com/prince800502" target="_blank" rel="noreferrer">Explore my GitHub <span>↗</span></a><span class="status-note"><i></i> Work in progress</span></div>
+              <div class="project-actions"><span class="status-note"><i></i> Work in progress — source code private</span></div>
             </div>
           </article>
         </div>
@@ -116,42 +281,154 @@
       </div>
     </section>
 
-    <section class="section wrap" id="journey">
-      <div class="section-head reveal"><span class="kicker">03 / THE JOURNEY</span><h2>Strong foundations.<br><span>Room to grow.</span></h2></div>
-      <div class="journey-grid">
-        <article class="education-card reveal">
-          <div class="card-top"><span class="kicker">EDUCATION</span><span class="edu-stamp">GLB.</span></div>
-          <div class="edu-year">2025 <span>—</span> 2029</div>
-          <h3>B.Tech, Computer Science<br>& Engineering</h3>
-          <p>GL Bajaj Institute of Technology and Management</p>
-          <div class="edu-bottom"><span>AKTU · Uttar Pradesh</span><span>UNDERGRADUATE</span></div>
+    <section class="section wrap" id="certifications">
+      <div class="section-head reveal">
+        <span class="kicker">05 / CERTIFICATIONS</span>
+        <h2>Professional<br><span>Learning.</span></h2>
+      </div>
+      <div class="certifications-empty reveal">
+        <div class="empty-icon">◈</div>
+        <h3>Certifications Coming Soon</h3>
+        <p>Certifications and professional learning achievements will be added here as I complete them.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="coding-profile">
+      <div class="section-head reveal">
+        <span class="kicker">06 / CODING PROFILES</span>
+        <h2>Code &<br><span>Community.</span></h2>
+      </div>
+      <div class="coding-profile-grid">
+        <article class="profile-card reveal">
+          <div class="profile-icon github">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <div class="profile-content">
+            <h3>GitHub</h3>
+            <p>Explore my repositories and development projects.</p>
+            <a href="https://github.com/prince800502" target="_blank" rel="noopener noreferrer" class="profile-link">Visit GitHub Profile <span>↗</span></a>
+          </div>
         </article>
-        <article class="skills-card reveal">
-          <span class="kicker">TECH STACK / CURRENT TOOLKIT</span>
-          <h3>Tools I’m learning and using.</h3>
-          <p class="skills-intro">A practical mix of programming fundamentals, web technologies, and tools used in my projects.</p>
-          <div class="skill-row"><span>01</span><div><b>Programming</b><div class="tags"><span>C</span><span>C++</span><span>Python basics</span><span>DSA practice</span></div></div></div>
-          <div class="skill-row"><span>02</span><div><b>Web development</b><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span></div></div></div>
-          <div class="skill-row"><span>03</span><div><b>Data & tools</b><div class="tags"><span>Supabase</span><span>MongoDB basics</span><span>SQL basics</span><span>Git & GitHub</span></div></div></div>
-          <p class="skill-footnote">I’m actively learning and improving these skills through coursework and personal projects.</p>
+        <article class="profile-card reveal">
+          <div class="profile-icon leetcode">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1.5-12h3V8.5h-3V6h-1.5v2.5H8V8h1.5v2H12v1.5zm0 5.5H8v-1h4v1zm3-3.5h-1.5V12H12V8.5h3V12z"/></svg>
+          </div>
+          <div class="profile-content">
+            <h3>LeetCode</h3>
+            <p>Explore my coding practice and problem-solving journey.</p>
+            <a href="https://leetcode.com/u/ps800502/" target="_blank" rel="noopener noreferrer" class="profile-link">View LeetCode Profile <span>↗</span></a>
+          </div>
+        </article>
+        <article class="profile-card reveal">
+          <div class="profile-icon linkedin">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <div class="profile-content">
+            <h3>LinkedIn</h3>
+            <p>Connect with me professionally.</p>
+            <a href="https://www.linkedin.com/in/prince-singh-8971a1383" target="_blank" rel="noopener noreferrer" class="profile-link">Connect on LinkedIn <span>↗</span></a>
+          </div>
         </article>
       </div>
-      <div class="timeline">
-        <div class="timeline-item reveal"><span class="timeline-date">CURRENT</span><div><h3>Learn, practise, build</h3><p>Improving my C++ and DSA foundations while continuing to build web-based projects.</p></div><span class="timeline-pill"><i></i> IN PROGRESS</span></div>
-        <div class="timeline-item reveal"><span class="timeline-date">2025–2029</span><div><h3>B.Tech in Computer Science & Engineering</h3><p>Working toward a strong foundation in computing, software, and problem-solving.</p></div><span class="timeline-pill">EDUCATION</span></div>
+    </section>
+
+    <section class="section wrap" id="resume">
+      <div class="section-head reveal">
+        <span class="kicker">07 / RESUME</span>
+        <h2>Professional<br><span>Summary.</span></h2>
+      </div>
+      <div class="resume-content">
+        <div class="resume-preview reveal">
+          <div class="resume-header">
+            <h3>Prince Singh Chauhan</h3>
+            <p>B.Tech CSE Student · GL Bajaj Institute of Technology and Management</p>
+            <p class="resume-contact">ps800502@gmail.com · <a href="https://github.com/prince800502" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://linkedin.com/in/prince-singh-8971a1383" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://leetcode.com/u/ps800502/" target="_blank" rel="noopener noreferrer">LeetCode</a></p>
+          </div>
+          <div class="resume-section">
+            <h4>Education</h4>
+            <ul>
+              <li><strong>B.Tech Computer Science & Engineering</strong> — GL Bajaj Institute of Technology and Management (AKTU), 2025–2029 (Currently Pursuing)</li>
+              <li><strong>Class 12th</strong> — Genius Inter College, Gonda (UP Board), 90.8%, 2024</li>
+              <li><strong>Class 10th</strong> — P N U M V Lachchhipur, Tajpur, Gonda, 91%, 2022</li>
+            </ul>
+          </div>
+          <div class="resume-section">
+            <h4>Technical Skills</h4>
+            <ul>
+              <li><strong>Programming:</strong> C, C++</li>
+              <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React, Next.js</li>
+              <li><strong>Backend & Databases:</strong> Supabase, MongoDB, SQL</li>
+              <li><strong>Tools:</strong> Git, GitHub, VS Code, Vercel</li>
+            </ul>
+          </div>
+          <div class="resume-section">
+            <h4>Projects</h4>
+            <ul>
+              <li><strong>Resume Forge</strong> — Web-based resume builder with React, TypeScript, Supabase, Gemini API. Features: resume editor, template selection, autosave, data persistence, PDF export, AI-powered suggestions. <a href="https://resume-forge-green-gamma.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo</a> · <a href="https://github.com/prince800502/Resume_Forge" target="_blank" rel="noopener noreferrer">Source</a></li>
+              <li><strong>Productivity Suite</strong> — Personal productivity workspace (Next.js, TypeScript, Supabase). Modules: dashboard, expense tracking, task management, Pomodoro timer, routines, scheduling, analytics. <em>In Progress</em></li>
+            </ul>
+          </div>
+          <div class="resume-section">
+            <h4>Interests</h4>
+            <p>Web development, software engineering, building practical applications, problem-solving, competitive programming.</p>
+          </div>
+        </div>
+        <div class="resume-download reveal">
+          <div class="download-card">
+            <div class="download-icon">📄</div>
+            <h3>Download Resume</h3>
+            <p>Full resume PDF with detailed experience, projects, and skills.</p>
+            <div class="download-actions">
+              <a class="button button-dark" href="assets/Resume.pdf" download="Prince_Singh_Chauhan_Resume.pdf">Download Resume</a>
+              <a class="button button-outline" href="assets/Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume <span>↗</span></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="contact" id="contact">
       <div class="wrap contact-wrap">
-        <span class="kicker">04 / SAY HELLO</span>
-        <p class="contact-intro">Have an idea, opportunity, or just want to talk tech?</p>
-        <h2>Let’s build<br><span>something meaningful.</span></h2>
+        <span class="kicker">08 / SAY HELLO</span>
+        <p class="contact-intro">Have a project in mind? Let's build something useful.</p>
+        <h2>Let's build<br><span>something meaningful.</span></h2>
         <a class="email-link" href="mailto:ps800502@gmail.com">ps800502@gmail.com <span>↗</span></a>
-        <div class="contact-bottom"><p>Open to connecting, collaborating, and learning together.</p><div class="socials"><a href="https://github.com/prince800502" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/prince-singh-8971a1383" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://leetcode.com/u/ps800502/" target="_blank" rel="noreferrer">LeetCode ↗</a></div></div>
+        <div class="contact-bottom">
+          <p>Open to connecting, collaborating, and learning together.</p>
+          <div class="socials" aria-label="Professional profiles">
+            <a class="social-link linkedin" href="https://www.linkedin.com/in/prince-singh-8971a1383" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a class="social-link github" href="https://github.com/prince800502" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a class="social-link leetcode" href="https://leetcode.com/u/ps800502/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile">
+              <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1.5-12h3V8.5h-3V6h-1.5v2.5H8V8h1.5v2H12v1.5zm0 5.5H8v-1h4v1zm3-3.5h-1.5V12H12V8.5h3V12z"/></svg>
+              <span>LeetCode</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer class="footer wrap"><a href="#home" class="logo">PRINCE<span>.</span></a><p>Designed & built with curiosity by Prince Singh Chauhan.</p><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span></span></footer>
+  <footer class="footer wrap">
+    <a href="#home" class="logo" aria-label="Back to home">PRINCE<span>.</span></a>
+    <p>Designed & built with curiosity by Prince Singh Chauhan.</p>
+    <div class="footer-socials" aria-label="Professional profiles">
+      <a class="linkedin" href="https://www.linkedin.com/in/prince-singh-8971a1383" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+        <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a class="github" href="https://github.com/prince800502" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+        <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a class="leetcode" href="https://leetcode.com/u/ps800502/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile">
+        <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1.5-12h3V8.5h-3V6h-1.5v2.5H8V8h1.5v2H12v1.5zm0 5.5H8v-1h4v1zm3-3.5h-1.5V12H12V8.5h3V12z"/></svg>
+      </a>
+    </div>
+    <a class="back-top" href="#home">BACK TO TOP ↑</a>
+    <span class="copyright">© <span id="year"></span></span>
+  </footer>
 </body>
 </html>
