@@ -148,6 +148,14 @@ const certificates = [
     date: "2026-06-30",
     file: "certificate-9.pdf",
     type: "pdf"
+  },
+  {
+    id: 10,
+    title: "Cybersecurity Essentials",
+    issuer: "Cisco Networking Academy",
+    date: "2026-10-26",
+    file: "certificate-10.pdf",
+    type: "pdf"
   }
 ];
 
